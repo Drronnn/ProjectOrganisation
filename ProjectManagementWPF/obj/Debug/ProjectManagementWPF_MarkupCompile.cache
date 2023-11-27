@@ -1,0 +1,20 @@
+﻿ProjectManagementWPF
+
+
+winexe
+C#
+.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\
+ProjectManagementWPF
+none
+false
+DEBUG;TRACE
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\App.xaml
+171356103616
+
+33959562810
+212101508147
+Components\AgileBlockComponent.xaml;Components\BulletElementComponent.xaml;Components\ContractComponent.xaml;Components\EmployeeComponent.xaml;Components\NumberBox.xaml;Components\ProjectComponent.xaml;Components\TaskSideMenu.xaml;MainWindow.xaml;View\AddContractPage.xaml;View\AddEmployeePage.xaml;View\AddProjectPage.xaml;View\AgilePage.xaml;View\AuthorizationPage.xaml;View\ContractPage.xaml;View\EmployeePage.xaml;View\ProjectPage.xaml;Window\NotificationWindow.xaml;
+
+False
+

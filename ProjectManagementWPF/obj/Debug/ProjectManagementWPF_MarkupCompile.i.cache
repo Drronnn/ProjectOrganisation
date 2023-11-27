@@ -1,0 +1,20 @@
+﻿ProjectManagementWPF
+
+
+winexe
+C#
+.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\
+ProjectManagementWPF
+none
+false
+DEBUG;TRACE
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\App.xaml
+171356103616
+
+34-1122525808
+21-304501851
+Components\AgileBlockComponent.xaml;Components\BulletElementComponent.xaml;Components\ContractComponent.xaml;Components\EmployeeComponent.xaml;Components\NumberBox.xaml;Components\ProjectComponent.xaml;Components\TaskSideMenu.xaml;MainWindow.xaml;View\AddContractPage.xaml;View\AddEmployeePage.xaml;View\AddProjectPage.xaml;View\AgilePage.xaml;View\AuthorizationPage.xaml;View\ContractPage.xaml;View\EmployeePage.xaml;View\ProjectPage.xaml;Window\NotificationWindow.xaml;
+
+False
+

@@ -1,0 +1,224 @@
+﻿<UserControl x:Class="ProjectManagementWPF.Components.TaskSideMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProjectManagementWPF.Components"
+             xmlns:global="clr-namespace:ProjectManagementWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="650" d:DesignWidth="400">
+
+    <UserControl.Resources>
+            <global:BoolToVisibility x:Key="BoolToVisibilityConverter"/>
+            <global:NegateBoolToVisibility x:Key="NegateBoolToVisibilityConverter"/>
+            <global:MyConverter x:Key="MyConverter"/>
+        <global:NumberVisibilityConverter x:Key="NumberVisibilityConverter"/>
+        <global:InvertNumberVisibilityConverter x:Key="InvertNumberVisibilityConverter"/>
+        
+        <Style TargetType="Button" x:Key="IteractButton">
+                <Setter Property="RenderTransformOrigin" Value="0.5, 0.5"/>
+                <Setter Property="RenderTransform">
+                    <Setter.Value>
+                        <SkewTransform AngleX="-10"/>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="Template" >
+                    <Setter.Value >
+                        <ControlTemplate TargetType="{x:Type Button}" >
+                            <ControlTemplate.Resources>
+                                <Storyboard x:Key="MouseOverAnimation">
+                                    <ColorAnimation Storyboard.TargetName="ButtonBorderColor" Storyboard.TargetProperty="Color" To="#06e9d2" Duration="0:0:0.1" />
+                                    <ColorAnimation Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="(TextBlock.Foreground).Color" To="#085857" Duration="0:0:0.1"/>
+
+
+                                </Storyboard>
+                                <Storyboard x:Key="MouseOutAnimation" FillBehavior="Stop">
+                                    <ColorAnimation Storyboard.TargetName="ButtonBorderColor" Storyboard.TargetProperty="Color" To="#06e9d2" Duration="0:0:0.1" />
+                                    <ColorAnimation Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="(TextBlock.Foreground).Color" To="#085857" Duration="0:0:0.1"/>
+
+
+                                </Storyboard>
+                                <Storyboard x:Key="MouseDownAnimation">
+                                    <ColorAnimation Storyboard.TargetName="ButtonBorderColor" Storyboard.TargetProperty="Color" To="#085857" Duration="0:0:0.1" />
+                                    <ColorAnimation Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="(TextBlock.Foreground).Color" To="#e0e938" Duration="0:0:0.1"/>
+
+
+                                </Storyboard>
+
+                            </ControlTemplate.Resources>
+
+                            <Border x:Name="ButtonBorder" Tag="{TemplateBinding Tag}" HorizontalAlignment="Left" Margin="25, 0, 0, 0" Height="50" Padding="0, 0, 25, 0">
+                                <Border.Background>
+                                    <SolidColorBrush x:Name="ButtonBorderColor" Color="#e0e938"></SolidColorBrush>
+                                </Border.Background>
+                                <StackPanel FlowDirection="LeftToRight" Orientation="Horizontal">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"></ColumnDefinition>
+                                            <ColumnDefinition Width="3*"></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+                                        <ContentPresenter Grid.Column="1" TextBlock.FontSize="25" TextBlock.FontStyle="Italic" TextBlock.FontWeight="DemiBold" x:Name="ContentPresenter" TextBlock.Foreground="#085857" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                            <ContentPresenter.RenderTransform>
+                                                <TransformGroup>
+                                                    <SkewTransform AngleX="20"/>
+                                                </TransformGroup>
+                                            </ContentPresenter.RenderTransform>
+                                        </ContentPresenter>
+                                    </Grid>
+                                </StackPanel>
+                            </Border>
+
+                            <ControlTemplate.Triggers>
+                                <MultiTrigger>
+                                    <MultiTrigger.Conditions>
+                                        <Condition Property="IsMouseOver" Value="True"/>
+                                    </MultiTrigger.Conditions>
+                                    <MultiTrigger.EnterActions>
+                                        <BeginStoryboard Storyboard="{StaticResource MouseOverAnimation}" />
+                                    </MultiTrigger.EnterActions>
+                                    <MultiTrigger.ExitActions>
+                                        <BeginStoryboard Storyboard="{StaticResource MouseOutAnimation}" />
+                                    </MultiTrigger.ExitActions>
+                                </MultiTrigger>
+
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Trigger.EnterActions>
+                                        <BeginStoryboard Storyboard="{StaticResource MouseDownAnimation}"/>
+                                    </Trigger.EnterActions>
+                                    <Trigger.ExitActions>
+                                        <BeginStoryboard Storyboard="{StaticResource MouseOutAnimation}"/>
+                                    </Trigger.ExitActions>
+                                </Trigger>
+
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+    </UserControl.Resources>
+
+    <Border BorderThickness="1" BorderBrush="#06e9d2" MinWidth="400">
+        
+        <Grid Background="#111810">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="3*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Button HorizontalAlignment="Right" VerticalAlignment="Top" Style="{StaticResource IteractButton}" Content=" X" Margin="0, 0, -5, 0"
+                    Command="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Page}}, Path=DataContext.OpenTaskSideMenuCommand}"/>
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal">
+                <TextBox
+                        IsReadOnly="{Binding IsAdministrator, Converter={StaticResource InvertBooleanConverter}}"
+                        BorderThickness="0, 0, 0, 1"
+                        BorderBrush="#e0e938"
+                        FontSize="40"
+                        Margin="10"
+                        TextAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontStyle="Italic"
+                        FontWeight="DemiBold"
+                        MinWidth="200"
+                        MaxWidth="300"
+                        MaxLength="15"
+                        Foreground="#e0e938" Text="{Binding CurrentTask.TaskTitle, Mode=TwoWay}"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Orientation="Vertical">
+                <TextBlock        
+                    Margin="10"
+                    FontSize="20"
+                    TextAlignment="Left"
+                    VerticalAlignment="Center"
+                    FontStyle="Italic"
+                    Foreground="#e0e938">Проект</TextBlock>
+                <ComboBox
+                    IsHitTestVisible="{Binding isNewTask}"
+                    BorderBrush="#e0e938"
+                    BorderThickness="1"
+                    FontSize="20"
+                    Margin="10, 0, 10, 0"
+                    Padding="10, 5, 10, 0"
+                    VerticalAlignment="Center"
+                    FontStyle="Italic"
+                    Foreground="#e0e938"
+                    ItemsSource="{Binding Projects}"
+                    SelectedValue="{Binding CurrentTask.ProjectId, Mode=TwoWay}"
+                    SelectedValuePath="Id"
+                    DisplayMemberPath="Name"
+                    />
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Orientation="Vertical">
+                <TextBlock        
+                    Margin="10"
+                    FontSize="20"
+                    TextAlignment="Left"
+                    VerticalAlignment="Center"
+                    FontStyle="Italic"
+                    Foreground="#e0e938">Сотрудник</TextBlock>
+                <ComboBox
+                    IsHitTestVisible="{Binding IsAdministrator}"
+                    BorderBrush="#e0e938"
+                    BorderThickness="1"
+                    FontSize="20"
+                    Margin="10, 0, 10, 0"
+                    Padding="10, 5, 10, 0"
+                    VerticalAlignment="Center"
+                    FontStyle="Italic"
+                    Foreground="#e0e938"
+                    ItemsSource="{Binding Employees}"
+                    SelectedValue="{Binding CurrentTask.EmployeeId, Mode=TwoWay}"
+                    SelectedValuePath="Id"
+                    DisplayMemberPath="FIO"
+                    />
+            </StackPanel>
+
+            <StackPanel Grid.Row="3" Orientation="Vertical">
+                <TextBlock        
+                    Margin="10"
+                    FontSize="20"
+                    TextAlignment="Left"
+                    VerticalAlignment="Center"
+                    FontStyle="Italic"
+                    Foreground="#e0e938">Описание</TextBlock>
+
+                <Border BorderBrush="#e0e938" BorderThickness="1" Margin="10, 0, 10, 0">
+                    <TextBox
+                        IsReadOnly="{Binding IsAdministrator, Converter={StaticResource InvertBooleanConverter}}"
+                        FontSize="20"
+                        VerticalAlignment="Center"
+                        FontStyle="Italic"
+                        Foreground="#e0e938"
+                        MinHeight="200"
+                        MaxWidth="400"
+                        Padding="10"
+                        TextWrapping="Wrap"
+                        Text="{Binding CurrentTask.Description, Mode=TwoWay}"
+                        />
+                </Border>
+            </StackPanel>
+
+            <StackPanel Grid.Row="4" Orientation="Horizontal">
+                <Button
+                    Visibility="{Binding CurrentTask.TaskStatusId, ConverterParameter=4, Converter={StaticResource NumberVisibilityConverter}}"
+                    Style="{StaticResource IteractButton}" Content="{Binding CurrentTask.MainButtonText}" Command="{Binding MainButtonCommand}" />
+                <Border BorderThickness="0" Visibility="{Binding CurrentTask.TaskStatusId, ConverterParameter=4, Converter={StaticResource NumberVisibilityConverter}}">
+                    <Button Visibility="{Binding isNewTask, Converter={StaticResource NegateBoolToVisibilityConverter}}" Style="{StaticResource IteractButton}" Content="{Binding CurrentTask.SecondButtonText}" Command="{Binding SecondButtonCommand}" />
+                </Border>
+                <Border BorderThickness="0" Visibility="{Binding IsAdministrator, Converter={StaticResource BoolToVisibilityConverter}}">
+                <Button 
+                         Visibility="{Binding CurrentTask.TaskStatusId, ConverterParameter=4, Converter={StaticResource InvertNumberVisibilityConverter}}"
+                          Style="{StaticResource IteractButton}" Content="ЗАВЕРШИТЬ" Command="{Binding CompleteTaskCommand}"
+                        />
+                </Border>
+
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>

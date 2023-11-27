@@ -1,0 +1,24 @@
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\DAL\bin\Debug\DAL.dll.config
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\DAL\bin\Debug\DAL.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\DAL\bin\Debug\DAL.pdb
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\DAL\bin\Debug\EntityFramework.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\DAL\bin\Debug\EntityFramework.SqlServer.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\DAL\bin\Debug\EntityFramework.xml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\DAL\bin\Debug\EntityFramework.SqlServer.xml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\DAL\obj\Debug\DAL.csproj.CopyComplete
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\DAL\obj\Debug\DAL.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\DAL\obj\Debug\DAL.pdb
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\DAL\bin\Debug\DAL.dll.config
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\DAL\bin\Debug\DAL.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\DAL\bin\Debug\DAL.pdb
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\DAL\obj\Debug\DAL.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\DAL\obj\Debug\DAL.pdb

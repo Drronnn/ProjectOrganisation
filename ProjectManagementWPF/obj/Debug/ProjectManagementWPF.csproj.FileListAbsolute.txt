@@ -1,0 +1,141 @@
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\ProjectManagementWPF.exe.config
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\ProjectManagementWPF.exe
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\ProjectManagementWPF.pdb
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\EntityFramework.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\EntityFramework.SqlServer.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\MaterialDesignColors.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\Microsoft.Xaml.Behaviors.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\Ninject.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\EntityFramework.xml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\EntityFramework.SqlServer.xml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\MaterialDesignColors.pdb
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\Microsoft.Xaml.Behaviors.xml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\Ninject.xml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.csproj.AssemblyReference.cache
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\MainWindow.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\App.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF_MarkupCompile.cache
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF_MarkupCompile.lref
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\App.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\MainWindow.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.g.resources
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.Properties.Resources.resources
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.csproj.GenerateResource.cache
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.csproj.CoreCompileInputs.cache
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.csproj.CopyComplete
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.exe
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.pdb
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\BLL.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\DAL.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\BLL.pdb
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\BLL.dll.config
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\DAL.pdb
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\DAL.dll.config
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\AgileBlockComponent.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\AgileBlockComponent.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AgilePage.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AgilePage.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\BulletElementComponent.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\BulletElementComponent.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\ContractComponent.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\ContractPage.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\ContractComponent.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\ContractPage.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AddContractPage.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AddContractPage.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\NumberBox.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\NumberBox.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\ProjectComponent.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\ProjectPage.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\ProjectComponent.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\ProjectPage.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AddProjectPage.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AddProjectPage.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\TaskSideMenu.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\TaskSideMenu.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AuthorizationPage.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AuthorizationPage.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\EmployeePage.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\EmployeePage.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\EmployeeComponent.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\EmployeeComponent.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AddEmployeePage.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Window\NotificationWindow.g.cs
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AddEmployeePage.baml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Window\NotificationWindow.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\ProjectManagementWPF.exe.config
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\ProjectManagementWPF.exe
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\ProjectManagementWPF.pdb
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\BLL.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\EntityFramework.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\Ninject.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\DAL.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\BLL.pdb
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\BLL.dll.config
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\EntityFramework.xml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\Ninject.xml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\DAL.pdb
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\bin\Debug\DAL.dll.config
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.csproj.AssemblyReference.cache
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\AgileBlockComponent.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\BulletElementComponent.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\ContractComponent.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\EmployeeComponent.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\NumberBox.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\ProjectComponent.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\TaskSideMenu.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AddContractPage.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AddEmployeePage.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AddProjectPage.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AgilePage.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AuthorizationPage.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\ContractPage.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\EmployeePage.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\ProjectPage.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Window\NotificationWindow.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\App.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF_MarkupCompile.cache
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF_MarkupCompile.lref
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\App.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\AgileBlockComponent.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\BulletElementComponent.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\ContractComponent.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\EmployeeComponent.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\NumberBox.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\ProjectComponent.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Components\TaskSideMenu.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\MainWindow.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AddContractPage.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AddEmployeePage.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AddProjectPage.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AgilePage.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\AuthorizationPage.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\ContractPage.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\EmployeePage.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\View\ProjectPage.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\Window\NotificationWindow.baml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.g.resources
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.Properties.Resources.resources
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.csproj.GenerateResource.cache
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.csproj.CoreCompileInputs.cache
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.csproj.CopyComplete
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.exe
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\ProjectManagementWPF\obj\Debug\ProjectManagementWPF.pdb

@@ -1,0 +1,335 @@
+﻿<Window x:Class="ProjectManagementWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectManagementWPF"
+        xmlns:uc="clr-namespace:ProjectManagementWPF.Components"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="1050"
+        WindowStyle="None"
+        Background="Transparent"
+        AllowsTransparency="True">
+
+    <Window.Resources>
+        <local:BoolToVisibility x:Key="BoolToVisibilityConverter"/>
+
+        <Style TargetType="RadioButton" x:Key="SideMenuButton">
+            <Setter Property="RenderTransformOrigin" Value="0.5, 0.5"/>
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <SkewTransform AngleX="-20"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Template" >
+                <Setter.Value >
+                    <ControlTemplate TargetType="{x:Type RadioButton}" >
+                        <ControlTemplate.Resources>
+                            <Storyboard x:Key="MouseOverAnimation">
+                                <ColorAnimation Storyboard.TargetName="ButtonBorderColor" Storyboard.TargetProperty="Color" To="#06e9d2" Duration="0:0:0.1" />
+
+                            </Storyboard>
+                            <Storyboard x:Key="MouseOutAnimation" FillBehavior="Stop">
+                                <ColorAnimation Storyboard.TargetName="ButtonBorderColor" Storyboard.TargetProperty="Color" To="Transparent" Duration="0:0:0.1" />
+                            </Storyboard>
+                            <Storyboard x:Key="MouseDownAnimation">
+                                <ColorAnimation Storyboard.TargetName="ButtonBorderColor" Storyboard.TargetProperty="Color" To="#dfd828" Duration="0:0:0.1" />
+
+                            </Storyboard>
+                            <Storyboard x:Key="MouseUpAnimation">
+                                <ColorAnimation Storyboard.TargetName="ButtonBorderColor" Storyboard.TargetProperty="Color" To="#e0e938" Duration="0:0:0.1" />
+
+                            </Storyboard>
+                        </ControlTemplate.Resources>
+
+
+                        <Border x:Name="ButtonBorder" Tag="{TemplateBinding Tag}"  BorderBrush="Transparent" BorderThickness="1">
+                            <Border.Background>
+                                <SolidColorBrush x:Name="ButtonBorderColor" Color="Transparent"></SolidColorBrush>
+                            </Border.Background>
+                            <StackPanel FlowDirection="LeftToRight" Orientation="Horizontal">
+                                <Grid>
+                                    <ContentPresenter TextBlock.FontSize="20" TextBlock.Foreground="#085857" TextBlock.FontWeight="DemiBold" TextBlock.FontStyle="Italic" x:Name="ContentPresenter" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10, 0, 25, 0">
+                                        <ContentPresenter.RenderTransform>
+                                            <TransformGroup>
+                                                <SkewTransform AngleX="20"/>
+                                            </TransformGroup>
+                                        </ContentPresenter.RenderTransform>
+                                    </ContentPresenter>
+                                </Grid>
+                            </StackPanel>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <MultiTrigger>
+                                <MultiTrigger.Conditions>
+                                    <Condition Property="IsMouseOver" Value="True"/>
+                                    <Condition Property="IsChecked" Value="False" />
+                                </MultiTrigger.Conditions>
+                                <MultiTrigger.EnterActions>
+                                    <BeginStoryboard Storyboard="{StaticResource MouseOverAnimation}" />
+                                </MultiTrigger.EnterActions>
+                                <MultiTrigger.ExitActions>
+                                    <BeginStoryboard Storyboard="{StaticResource MouseOutAnimation}" />
+                                </MultiTrigger.ExitActions>
+                            </MultiTrigger>
+
+                            <Trigger Property="IsChecked" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard Storyboard="{StaticResource MouseUpAnimation}" />
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard Storyboard="{StaticResource MouseOutAnimation}" />
+                                </Trigger.ExitActions>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="Button" x:Key="IteractButton">
+            <Setter Property="Template" >
+                <Setter.Value >
+                    <ControlTemplate TargetType="{x:Type Button}" >
+                        <ControlTemplate.Resources>
+                            <Storyboard x:Key="MouseOverAnimation">
+                                <ColorAnimation Storyboard.TargetName="ButtonBorderColor" Storyboard.TargetProperty="Color" To="#bb9fd6" Duration="0:0:0.2" />
+                                <ColorAnimation Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="(TextBlock.Foreground).Color" To="White" Duration="0:0:0.2"/>
+                                <ColorAnimation Storyboard.TargetName="Icon" Storyboard.TargetProperty="(Foreground).Color" To="White" Duration="0:0:0.2" />
+                            </Storyboard>
+                            <Storyboard x:Key="MouseOutAnimation" FillBehavior="Stop">
+                                <ColorAnimation Storyboard.TargetName="ButtonBorderColor" Storyboard.TargetProperty="Color" To="Transparent" Duration="0:0:0.2" />
+                                <ColorAnimation Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="(TextBlock.Foreground).Color" To="Black" Duration="0:0:0.2"/>
+                                <ColorAnimation Storyboard.TargetName="Icon" Storyboard.TargetProperty="(Foreground).Color" To="Black" Duration="0:0:0.2" />
+                            </Storyboard>
+                            <Storyboard x:Key="MouseDownAnimation">
+                                <ColorAnimation Storyboard.TargetName="ButtonBorderColor" Storyboard.TargetProperty="Color" To="Violet" Duration="0:0:0.2" />
+                                <ColorAnimation Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="(TextBlock.Foreground).Color" To="White" Duration="0:0:0.2"/>
+                                <ColorAnimation Storyboard.TargetName="Icon" Storyboard.TargetProperty="(Foreground).Color" To="White" Duration="0:0:0.2" />
+                            </Storyboard>
+                            <Storyboard x:Key="MouseUpAnimation">
+                                <ColorAnimation Storyboard.TargetName="ButtonBorderColor" Storyboard.TargetProperty="Color" To="DarkViolet" Duration="0:0:0.2" />
+                                <ColorAnimation Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="(TextBlock.Foreground).Color" To="White" Duration="0:0:0.2"/>
+                                <ColorAnimation Storyboard.TargetName="Icon" Storyboard.TargetProperty="(Foreground).Color" To="White" Duration="0:0:0.2" />
+                            </Storyboard>
+                        </ControlTemplate.Resources>
+
+
+                        <Border x:Name="ButtonBorder" Tag="{TemplateBinding Tag}"  CornerRadius="5" BorderBrush="Transparent" BorderThickness="1" Margin="10" Height="40">
+
+                            <Border.Background>
+                                <SolidColorBrush x:Name="ButtonBorderColor" Color="Transparent"></SolidColorBrush>
+                            </Border.Background>
+                            <StackPanel FlowDirection="LeftToRight" Orientation="Horizontal">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <materialDesign:PackIcon Grid.Column="0" Name="Icon" Tag="{TemplateBinding Tag}" Kind="{Binding Tag, RelativeSource={x:Static RelativeSource.Self}}" Foreground="#085857" VerticalAlignment="Center"  Margin="10, 0, 10, 0" Width="30" Height="25" />
+                                    <ContentPresenter Grid.Column="1" TextBlock.FontSize="18" TextBlock.FontWeight="DemiBold" x:Name="ContentPresenter" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                    </ContentPresenter>
+                                </Grid>
+                            </StackPanel>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <MultiTrigger>
+                                <MultiTrigger.Conditions>
+                                    <Condition Property="IsMouseOver" Value="True"/>
+
+                                </MultiTrigger.Conditions>
+                                <MultiTrigger.EnterActions>
+                                    <BeginStoryboard Storyboard="{StaticResource MouseOverAnimation}" />
+                                </MultiTrigger.EnterActions>
+                                <MultiTrigger.ExitActions>
+                                    <BeginStoryboard Storyboard="{StaticResource MouseOutAnimation}" />
+                                </MultiTrigger.ExitActions>
+                            </MultiTrigger>
+
+
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="SlantedButton" TargetType="Button">
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Padding" Value="10,5" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Border x:Name="border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+                                    <ContentPresenter.RenderTransform>
+                                        <TransformGroup>
+                                            <SkewTransform AngleX="20"/>
+                                        </TransformGroup>
+                                    </ContentPresenter.RenderTransform>
+                                </ContentPresenter>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#e0e938" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#06e9d2" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="RenderTransformOrigin" Value="0.5, 0.5"/>
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <SkewTransform AngleX="-20"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        
+    </Window.Resources>
+
+    <Border x:Name="MainBorder" Background="#111810">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="9*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <!--DragTop-->
+            <Border Grid.Row="0" Panel.ZIndex="2">
+                <Rectangle  x:Name="DragRecranhle" MouseDown="DragRecranhle_MouseDown" Fill="Transparent" VerticalAlignment="Center" Height="55" Margin="735,0,0,0" />
+            </Border>
+
+            <!--TopButtons-->
+            <StackPanel Panel.ZIndex="2" Background="Transparent" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Height="auto" Grid.Row="0" Margin="0, 0, -11, 0">
+
+                <!--LogOFf-->
+                <Button Visibility="{Binding IsLogin, Converter={StaticResource BoolToVisibilityConverter}}" Style="{StaticResource SlantedButton}" Height="40" BorderThickness="0" Background="Transparent" Width="50" Command="{Binding LogOutCommand}">
+                    <materialDesign:PackIcon Kind="Logout" HorizontalAlignment="Center" Foreground="#085857" Margin="-10" Height="20" Width="20"/>
+                </Button>
+
+                <!--WindowDown-->
+                <Button Style="{StaticResource SlantedButton}" Height="40" BorderThickness="0" Background="Transparent" Width="50">
+                    <materialDesign:PackIcon Kind="ColorHelper" HorizontalAlignment="Center" Foreground="#085857" Margin="-10" Height="20" Width="20"/>
+                </Button>
+
+                <!--FullWindow-->
+                <Button Style="{StaticResource SlantedButton}" Height="40" BorderThickness="0" Width="50"
+                    Command="{Binding MaxMinCommand}"
+                    Background="Transparent" Cursor="Hand">
+                    <materialDesign:PackIcon Kind="VectorArrangeBelow" HorizontalAlignment="Center" Margin="-10" Height="20" Width="20" Foreground="#085857"/>
+                </Button>
+
+                <!--Close-->
+                <Button x:Name="CloseButton" Style="{StaticResource SlantedButton}"
+                    Background="Transparent"
+                    Height="40" Width="65"
+                    materialDesign:ButtonAssist.CornerRadius="0,0,0,0" 
+                    BorderThickness="0"  
+                    Command="{Binding CloseCommand}"
+                    Cursor="Hand">
+                    <materialDesign:PackIcon Kind="Close" Margin="-10" Height="20" Width="20" Foreground="#085857"/>
+                </Button>
+
+            </StackPanel>
+
+            <!--Top Nav Bar-->
+
+            <StackPanel Orientation="Horizontal"  Grid.Row="0"  MouseDown="DragRecranhle_MouseDown">
+
+                <StackPanel Orientation="Horizontal" Margin="10">
+
+                    <Image Source="/ProjectManagementWPF;component/Source/boarPng.png" Width="40" Height="40" HorizontalAlignment="Center"
+            VerticalAlignment="Center"/>
+
+                    <TextBlock
+                        Padding="10, 10,60, 10"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontFamily="Bahnschrift"
+                    FontSize="35"
+                    FontWeight="Bold"
+                        FontStyle="Italic"
+                    Foreground="#e0e938">
+                    KABAN</TextBlock>
+
+
+                </StackPanel>
+
+                <RadioButton 
+                        x:Name="AgileButton"
+                        GroupName="SideMenu"
+                        Command="{Binding NavigateCommand}"
+                        CommandParameter="Agile"
+                        Style="{StaticResource SideMenuButton}"
+                        Cursor="Hand">
+                    AGILE
+                </RadioButton>
+
+                <RadioButton 
+                        x:Name="EmployeesButton"
+                        GroupName="SideMenu"
+                        Command="{Binding NavigateCommand}"
+                        CommandParameter="Employee"
+                        Style="{StaticResource SideMenuButton}"
+                        Cursor="Hand">
+                    EMPLOYEES
+                </RadioButton>
+
+                <RadioButton 
+                        x:Name="ProjectsButton"
+                        GroupName="SideMenu"
+                        Command="{Binding NavigateCommand}"
+                        CommandParameter="Project"
+                        Style="{StaticResource SideMenuButton}"
+                        Cursor="Hand">
+                    PROJECTS
+                </RadioButton>
+                <RadioButton 
+                        x:Name="ContractsButton"
+                        GroupName="SideMenu"
+                        Command="{Binding NavigateCommand}"
+                        CommandParameter="Contract"
+                        Style="{StaticResource SideMenuButton}"
+                        Cursor="Hand">
+                    CONTRACTS
+                </RadioButton>
+            </StackPanel>
+
+
+            <!--LogOffBtn-->
+            <!--<Button x:Name="LogOutButton"                              
+                        Command="{Binding LogOutCommand}"                          
+                        CommandParameter="LogOut"
+                        Style="{StaticResource IteractButton}"
+                        Cursor="Hand"
+                        Tag="LogOut"
+                     VerticalAlignment="Bottom">
+                LogOut
+            </Button>-->
+            
+            <!--<uc:AgileBlockComponent Grid.Row="1" Title="TO-DO"></uc:AgileBlockComponent>-->
+            
+            <!--Auth-->
+            <Border Grid.RowSpan="2" Panel.ZIndex="1">
+                <Frame x:Name="authFrame" NavigationUIVisibility="Hidden"/>
+
+
+            </Border>
+
+            <!--MainFrame-->
+            <Border Grid.Row="1" CornerRadius="0, 20, 20, 0">
+                <Frame x:Name="mainFrame" NavigationUIVisibility="Hidden" />
+            </Border>
+
+        </Grid>
+
+    </Border>
+
+</Window>

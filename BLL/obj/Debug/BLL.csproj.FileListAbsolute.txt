@@ -1,0 +1,34 @@
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\bin\Debug\BLL.dll.config
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\bin\Debug\BLL.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\bin\Debug\BLL.pdb
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\bin\Debug\DAL.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\bin\Debug\EntityFramework.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\bin\Debug\EntityFramework.SqlServer.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\bin\Debug\Ninject.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\bin\Debug\DAL.pdb
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\bin\Debug\DAL.dll.config
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\bin\Debug\EntityFramework.xml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\bin\Debug\EntityFramework.SqlServer.xml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\bin\Debug\Ninject.xml
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\obj\Debug\BLL.csproj.CopyComplete
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\obj\Debug\BLL.dll
+Z:\Visual Studio 2022\repos\ProjectManagementWPF\BLL\obj\Debug\BLL.pdb
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\obj\Debug\BLL.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\obj\Debug\BLL.pdb
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\bin\Debug\BLL.dll.config
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\bin\Debug\BLL.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\bin\Debug\BLL.pdb
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\bin\Debug\DAL.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\bin\Debug\Ninject.dll
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\bin\Debug\DAL.pdb
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\bin\Debug\DAL.dll.config
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\bin\Debug\Ninject.xml
+C:\Users\Andre\OneDrive\Рабочий стол\Фомина\ProjectManagementWPF\BLL\obj\Debug\BLL.csproj.CopyComplete
